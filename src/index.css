@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,23 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: "SCP";
+  src: local("SCP"),
+  url("./Fonts/SourceCodePro.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SCP-italic";
+  src: local("SCP-italic"),
+  url("./Fonts/SourceCodePro-Italic.ttf") format("truetype");
+}
+
+.scp-font {
+  font-family: "SCP";
+}
+
+.scp-font-italic {
+  font-family: "SCP-italic";
 }
