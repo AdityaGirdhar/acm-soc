@@ -6,8 +6,8 @@ import Footer from "./Components/Footer/Footer";
 function App() {
   return (
       <>
-        <div className="App bg-[#2B2B2B] scp-font  text-[#07B509] ">
-            <img src={require("../src/Assets/grid.png")} alt="bg" className={'absolute w-screen h-[800px]'}/>
+        <div className="App bg-[#2B2B2B] scp-font text-[#07B509] ">
+            <img src={require("../src/Assets/grid.png")} alt="bg" className={'absolute sm:w-screen sm:h-[800px] h-screen'}/>
             <div className={''}>
                 <Navbar />
                 <BrowserRouter>
