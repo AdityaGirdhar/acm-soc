@@ -3,7 +3,7 @@ import React from "react";
 export default function Home() {
     return(
         <>
-            <div className={'flex sm:py-10 flex-col sm:justify-center items-center h-[750px]'}>
+            <div className={'flex sm:py-10 flex-col sm:justify-center items-center'}>
                 <div className={'sm:w-3/6 px-4'}>
                     <div className={'sm:text-[24px] text-[12px]'}>
                         <p className={'py-2'}>
