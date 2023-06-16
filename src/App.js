@@ -3,6 +3,7 @@ import Home from "./Pages/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import Leaderboards from "./Pages/Leaderboards/Leaderboards";
+import Rules from "./Pages/Rules/Rules";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
                     <Navbar />
                       <Routes>
                         <Route path={'/'} element={<Home />}/>
+                        <Route path={'/rules'} element={<Rules/>}/>
                         <Route path={'/leaderboards'} element={<Leaderboards />}/>
                       </Routes>
                 </BrowserRouter>
