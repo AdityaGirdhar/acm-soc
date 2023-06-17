@@ -5,7 +5,7 @@ import Board from "./Board.jsx";
 
 const API = "https://sheet.best/api/sheets/ac762f3b-4dff-439a-a87d-f321b883f8d3";
 
-const LeaderBoards = () => {
+const Leaderbards = () => {
     const [users, setUsers] = useState([]);
 
     const fetchUsers = async (url) => {
@@ -40,4 +40,4 @@ const LeaderBoards = () => {
     </>
 }
 
-export default LeaderBoards;
+export default Leaderbards;

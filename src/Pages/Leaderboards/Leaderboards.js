@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from "react";
-import LeaderBoards from './LeaderBoards'
+import Leaderbards from './Leaderbards'
 export default function Leaderboards() {
 
     return(
-        <LeaderBoards/>
+        <Leaderbards/>
     )
 }
