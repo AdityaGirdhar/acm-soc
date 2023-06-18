@@ -33,7 +33,7 @@ const Leaderbards = () => {
         <thead>
             
           <tr>
-            <th style={{ paddingLeft: "40px" }}>Ran k</th>
+            <th style={{ paddingLeft: "40px" }}>Rank</th>
             <th style={{ paddingLeft: "40px" }}>Username</th>
             <th style={{ paddingLeft: "40px" }}>Coins</th>
           </tr>
