@@ -9,8 +9,8 @@ const Board = ({users}) => {
 
                     return (
                         <tr key={id}>
-                            <td>{id}</td>
-                            <td>{name}</td>
+                            <td style={{ paddingLeft: "40px" }} >{id}</td>
+                            <td style={{ paddingLeft: "50px" }}>{name}</td>
                         </tr>
                     )
                 })
