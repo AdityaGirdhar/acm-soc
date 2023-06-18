@@ -43,7 +43,7 @@ const Leaderbards = () => {
           <Board users={users} />
         </tbody>
       </table>
-      {/* <img src={coin} alt="Image" style={{ marginLeft: "700px" , marginTop :"200px",  marginRight: "10px" }} /> */}
+      <img src={coin} alt="Image" style={{ marginLeft: "700px" , marginTop :"200px",  marginRight: "10px" }} />
 
     </div>
   );
