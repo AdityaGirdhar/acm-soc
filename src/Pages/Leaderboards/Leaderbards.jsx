@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 // import UserData from "./components/UserData.jsx";
+import coin from "../../Assets/coins.png"
 import Board from "./Board.jsx";
 
 const API = "https://sheet.best/api/sheets/ac762f3b-4dff-439a-a87d-f321b883f8d3";
@@ -41,7 +42,7 @@ const Leaderbards = () => {
           <Board users={users} />
         </tbody>
       </table>
-      <img src="../src/Assets/leaderboard.png" alt="Image" style={{ marginLeft: "700px" , marginTop :"200px",  marginRight: "10px" }} />
+      <img src={coin} alt="Image" style={{ marginLeft: "700px" , marginTop :"200px",  marginRight: "10px" }} />
 
     </div>
   );
