@@ -6,7 +6,7 @@ export default function Navbar() {
 
     return(
         <>
-            <div className={'brightness-125 px-2 py-2 sm:flex justify-around sm:text-[20px] sm:py-5 backdrop-blur-sm'}>
+            <div className={'bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] px-2 py-2 sm:flex justify-around sm:text-[20px] sm:py-5 backdrop-blur-sm'}>
                 <Link to={'/'}>
                     {currPage===0 ?
                         <div className={'font-[700] cursor-pointer'}>

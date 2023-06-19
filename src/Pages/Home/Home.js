@@ -17,7 +17,7 @@ export default function Home() {
                         </p>
                     </div>
                     <div className={'flex justify-center sm:text-[24px] text-[12px] sm:pb-10 pb-2'}>
-                        <button className={'cursor-default px-[100px] py-2 brightness-125 rounded-xl mt-5 backdrop-blur-sm'}>Event starts on 21/06/23, be ready.</button>
+                        <button className={'cursor-default px-[100px] py-2 bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-xl mt-5 backdrop-blur-sm'}>Event starts on 21/06/23, be ready.</button>
                     </div>
                 </div>
             </div>
