@@ -6,7 +6,7 @@ export default function Navbar() {
 
     return(
         <>
-            <div className={'bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] px-2 py-2 sm:flex md:justify-around justify-center sm:text-[20px] sm:py-5 backdrop-blur-sm'}>
+            <div className={'max-w-screen bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] px-2 py-2 sm:flex md:justify-around justify-center sm:text-[20px] sm:py-5 backdrop-blur-sm'}>
                 <Link to={'/'}>
                     {currPage===0 ?
                         <div className={'md:text-start text-[20px] text-center font-[700] cursor-pointer'}>
