@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Calender() {
     return(
-        <div className={'min-h-screen flex md:flex-row flex-col justify-around py-[100px]'}>
+        <div className={'min-h-screen flex md:flex-row flex-col justify-around md:py-[100px] py-[30px]'}>
             <div className={'md:w-1/2 backdrop-blur-sm bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-[30px] mx-[50px] px-[10px] py-[15px]'}>
                 <div className={'flex'}>
                     <img className={'md:h-[50px] md:w-[150px] h-[30px] mx-1'} src={require('../../Assets/battery.png')} alt={'battery'}/>
