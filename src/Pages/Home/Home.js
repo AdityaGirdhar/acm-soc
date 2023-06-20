@@ -16,25 +16,27 @@ export default function Home() {
                     <img className = "h-[60px]" src={require('../../Assets/waves.png')} alt = "wave"/>
                 </div>
             </div>
-            <div className = {"sm:w-3/5 max-w-screen"}>
-                <div className = {'px-10 py-5 border-[2px] border-[#07B509] border-dashed sm:text-[22px] text-[16px] relative'}>
-                    <div className = {' py-2 relative z-10'}>
-                        Welcome to IIIT Delhi Student Chapter’ s self - hosted ACM Summer of Code!This is an 11 - day challenge
-                        for beginners and experts alike that presents you with one unique task per day with a 24 - hour deadline.
-                        <span className={'px-1 text-[14px]'}>(You heard that right, deadline again.)</span>
+            <div className={'flex justify-center'}>
+                <div className = {"sm:w-3/5 w-4/5 sm:max-w-screen"}>
+                    <div className = {'sm:w-full sm:px-10 sm:py-5 py-2 px-3 border-[2px] border-[#07B509] border-dashed sm:text-[22px] text-[16px] '}>
+                        <div className = {' py-2 relative z-10'}>
+                            Welcome to IIIT Delhi Student Chapter’ s self - hosted ACM Summer of Code!This is an 11 - day challenge
+                            for beginners and experts alike that presents you with one unique task per day with a 24 - hour deadline.
+                            <span className={'px-1 text-[14px]'}>(You heard that right, deadline again.)</span>
+                        </div>
+                        <p className = {'py-2 relative z-10'}>
+                            As you progress through each day 's task, you will have the opportunity to put your creativity and logical thinking to the test! You'
+                            ll encounter puzzles, optimization challenges, and hands - on projects that will push you to think critically and devise efficient solutions.
+                        </p>
+                        <p className = {'py-2 relative z-10'}>
+                            So, roll up your sleeves, buckle up your coding skills, and get ready to embark on this incredible 11 - Day Coding Challenge.We are ready, are you ?
+                        </p>
                     </div>
-                    <p className = {'py-2 relative z-10'}>
-                        As you progress through each day 's task, you will have the opportunity to put your creativity and logical thinking to the test! You'
-                        ll encounter puzzles, optimization challenges, and hands - on projects that will push you to think critically and devise efficient solutions.
-                    </p>
-                    <p className = {'py-2 relative z-10'}>
-                        So, roll up your sleeves, buckle up your coding skills, and get ready to embark on this incredible 11 - Day Coding Challenge.We are ready, are you ?
-                    </p>
-                </div>
-                <div className = {'flex justify-center sm:text-[18px] text-[12px] sm:pb-10 py-2'}>
-                    <button className = {'w-1/2 cursor-default sm:px-[100px] py-2 bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-xl mt-5 backdrop-blur-sm' } >
-                        Event starts on 21/06/23, be ready.
-                    </button>
+                    <div className = {'flex justify-center sm:text-[18px] text-[12px] sm:pb-10 py-2'}>
+                        <button className = {'w-1/2 cursor-default sm:px-[100px] py-2 bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-xl mt-5 backdrop-blur-sm' } >
+                            Event starts on 21/06/23, be ready.
+                        </button>
+                    </div>
                 </div>
             </div>
             <div className = {'sm:block hidden px-3 h-screen sm:w-1/5'}>
