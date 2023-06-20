@@ -17,16 +17,16 @@ export default function Navbar() {
                 </Link>
                 <div className={'flex sm:justify-around justify-center'}>
                     {currPage===1 ?
-                        <p className={'sm:px-5 px-2 font-[700] cursor-pointer'}>[Rules]</p> :
-                        <Link to={'/rules'}><p className={'sm:px-5 px-2 cursor-pointer'} onClick={() => setCurrPage(1)}>[Rules]</p></Link>
+                        <p className={'sm:px-5 px-1 font-[700] cursor-pointer'}>[Rules]</p> :
+                        <Link to={'/rules'}><p className={'sm:px-5 px-1 cursor-pointer'} onClick={() => setCurrPage(1)}>[Rules]</p></Link>
                     }
                     {currPage===2 ?
-                        <p className={'sm:px-5 px-2 font-[700] cursor-pointer'}>[Calender]</p> :
-                        <Link to={'/calender'}><p className={'sm:px-5 px-2 cursor-pointer'} onClick={() => setCurrPage(2)}>[Calender]</p></Link>
+                        <p className={'sm:px-5 px-1 font-[700] cursor-pointer'}>[Calender]</p> :
+                        <Link to={'/calender'}><p className={'sm:px-5 px-1 cursor-pointer'} onClick={() => setCurrPage(2)}>[Calender]</p></Link>
                     }
                     {currPage===3 ?
-                        <p className={'sm:px-5 px-2 font-[700] cursor-pointer'}>[Leaderboards]</p> :
-                        <Link to={'/leaderboards'}><p className={'sm:px-5 px-2 cursor-pointer'} onClick={() => setCurrPage(3)}>[Leaderboards]</p></Link>
+                        <p className={'sm:px-5 px-1 font-[700] cursor-pointer'}>[Leaderboards]</p> :
+                        <Link to={'/leaderboards'}><p className={'sm:px-5 px-1 cursor-pointer'} onClick={() => setCurrPage(3)}>[Leaderboards]</p></Link>
                     }
                 </div>
             </div>
