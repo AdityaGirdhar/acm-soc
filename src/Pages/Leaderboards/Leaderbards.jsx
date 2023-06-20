@@ -33,7 +33,7 @@ const Leaderboards = () => {
     <div className="h-screen">
       <div className="flex justify-center">
           <div className={'sm:w-3/4 w-full flex justify-center'}>
-              <div className={' h-screen w-3/4 flex justify-end flex-col'}>
+              <div className={' h-screen sm:3/4 w-4/5 flex justify-end flex-col'}>
                 <div className="h-3/4 backdrop-blur-sm bg-gradient-to-r from-[#ffffff10] to-[#ffffff08] rounded-xl px-5 py-8">
                     <div className="flex justify-evenly">
                       <div className="w-1/2 flex justify-start">

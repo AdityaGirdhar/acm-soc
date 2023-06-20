@@ -3,8 +3,8 @@ import React from "react";
 export default function Calender() {
     return(
         <div className={'flex justify-center'}>
-            <div className={'min-h-screen w-4/5 sm:w-full flex md:flex-row flex-col justify-around md:py-[100px] py-[30px]'}>
-                <div className={'md:w-1/2 backdrop-blur-sm bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-[30px] md:mx-[50px] mx-[10px] px-[10px] py-[15px]'}>
+            <div className={' min-h-screen w-4/5 sm:w-full flex md:flex-row flex-col justify-around md:py-[100px] py-[30px]'}>
+                <div className={'md:w-1/2 backdrop-blur-sm bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-[30px] md:mx-[50px] sm:mx-[10px] px-[10px] py-[15px]'}>
                     <div className={'flex'}>
                         <img className={'md:h-[50px] md:w-[150px] h-[30px] mx-1'} src={require('../../Assets/battery.png')} alt={'battery'}/>
                         <img className={'md:h-[50px] h-[30px] mx-1'} src={require('../../Assets/radar_thingy.png')} alt={'radar'}/>
@@ -57,9 +57,9 @@ export default function Calender() {
                         </div>
                     </div>
                 </div>
-                <div className={'md:w-1/2 mx-[50px]'}>
+                <div className={'md:w-1/2 sm:mx-[50px]'}>
                     <img className={'z-50'} src={require('../../Assets/coin-large.png')} alt={'coin'}/>
-                    <div className={'text-[18px] break-words'}>
+                    <div className={'sm:text-[18px] text-[16px] break-words'}>
                         <p>
                             In "Pirates of the Caribbean: Dead Man's Chest" and "Pirates of the Caribbean: At World's End," Davy Jones, the captain of the Flying Dutchman, has hidden faces in the tentacles of his beard. It's a subtle detail that adds to the mystical
                             and eerie nature of the character.
