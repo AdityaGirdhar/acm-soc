@@ -1,4 +1,4 @@
-import coin from "../../Assets/coins.png";
+import coin from "../../Assets/coin-large.png";
 
 const Board = ({ users }) => {
   return (

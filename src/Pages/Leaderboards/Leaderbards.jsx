@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import coin from "../../Assets/coins.png";
+import coin from "../../Assets/coin-large.png";
 import battery from "../../Assets/battery.png";
 import pulse from "../../Assets/pulse.png";
 import Board from "./Board.jsx";
