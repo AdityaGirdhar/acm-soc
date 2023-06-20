@@ -2,14 +2,14 @@ import React from "react";
 
 export default function Rules() {
     return(
-        <div className={'pt-[80px]'}>
-            <div className={'flex justify-around'}>
-                <img className={'h-[60px]'} src={require('../../Assets/battery.png')} alt={'battery'}/>
-                <img className={'h-[60px]'} src={require('../../Assets/pulse.png')} alt={'pulse'}/>
-                <img className={'h-[60px]'} src={require('../../Assets/pulse.png')} alt={'pulse'}/>
+        <div className={'max-w-screen md:pt-[80px] pt-[40px]'}>
+            <div className={'flex justify-center'}>
+                <img className={'md:h-[60px] h-[30px] w-[90px] md:w-[180px] md:mx-5 mx-2'} src={require('../../Assets/battery.png')} alt={'battery'}/>
+                <img className={'md:h-[60px] h-[30px] w-[90px] md:w-[350px] md:mx-5 mx-2'} src={require('../../Assets/pulse.png')} alt={'pulse'}/>
+                <img className={'md:h-[60px] h-[30px] w-[90px] md:w-[350px] md:mx-5 mx-2'} src={require('../../Assets/pulse.png')} alt={'pulse'}/>
             </div>
-            <div className={'flex flex-col items-center justify-center pt-[50px]'}>
-                <div className={'w-3/5 text-[20px] font-[400]'}>
+            <div className={'flex flex-col items-center justify-center md:pt-[50px]'}>
+                <div className={'w-3/5 md:text-[20px] text-[16px] font-[400]'}>
                     <p className={'py-2'}>
                         Captain Jack Sparrow has achieved immortality after drinking the Elixir of Life. However, he doesn’t realize his eternal enemy Captain Davy Jones had also managed a slip of the same and is out to get his crew and money once and for all!
                     </p>
@@ -23,9 +23,9 @@ export default function Rules() {
                 </div>
             </div>
             <div className={'flex justify-around pt-[30px] pb-[50px]'}>
-                <img className={'h-[60px]'} src={require('../../Assets/pulse.png')} alt={'battery'}/>
+                <img className={'md:h-[60px] h-[30px] w-[90px] md:w-[350px] md:mx-5 mx-2'} src={require('../../Assets/pulse.png')} alt={'battery'}/>
                 <div></div>
-                <img className={'h-[60px]'} src={require('../../Assets/radar_thingy.png')} alt={'radar'}/>
+                <img className={'md:h-[60px] h-[30px] w-[90px] md:w-[200px] md:mx-5 mx-2'} src={require('../../Assets/radar_thingy.png')} alt={'radar'}/>
             </div>
         </div>
     )

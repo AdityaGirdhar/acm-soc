@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Calender() {
     return(
-        <div className={'flex justify-around py-[100px]'}>
-            <div className={'w-1/2 backdrop-blur-sm bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-[30px] mx-[50px] px-[10px] py-[15px]'}>
+        <div className={'min-h-screen flex md:flex-row flex-col justify-around py-[100px]'}>
+            <div className={'md:w-1/2 backdrop-blur-sm bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-[30px] mx-[50px] px-[10px] py-[15px]'}>
                 <div className={'flex'}>
-                    <img className={'h-[60px] w-[250px] mx-1'} src={require('../../Assets/pulse.png')} alt={'battery'}/>
-                    <img className={'h-[60px] mx-1'} src={require('../../Assets/radar_thingy.png')} alt={'radar'}/>
+                    <img className={'md:h-[50px] md:w-[150px] h-[30px] mx-1'} src={require('../../Assets/battery.png')} alt={'battery'}/>
+                    <img className={'md:h-[50px] h-[30px] mx-1'} src={require('../../Assets/radar_thingy.png')} alt={'radar'}/>
                 </div>
                 <div className={'flex justify-center items-center py-[20px]'}>
                     <div className={'flex flex-col justify-center items-center'}>
@@ -56,7 +56,7 @@ export default function Calender() {
                     </div>
                 </div>
             </div>
-            <div className={'w-1/2 mx-[50px]'}>
+            <div className={'md:w-1/2 mx-[50px]'}>
                 <img className={'z-50'} src={require('../../Assets/coin-large.png')} alt={'coin'}/>
                 <div className={'text-[18px] break-words'}>
                     <p>
