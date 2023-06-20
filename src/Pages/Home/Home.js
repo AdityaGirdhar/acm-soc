@@ -7,7 +7,7 @@ import box from "../../Assets/box.png";
 
 export default function Home() {
     return ( <>
-        <div className = {'min-w-screen min-h-screen flex sm:py-10 sm:justify-center items-center'}>
+        <div className = {'sm:min-w-screen sm:min-h-screen flex sm:py-10 pt-10 sm:justify-center items-center'}>
             <div className={'sm:block hidden sm:w-1/5 px-3 h-screen'}>
                 <div className = "h-1/2 flex justify-center">
                     <img className = "h-[40px]" src = { codess } alt = "codess"/>
