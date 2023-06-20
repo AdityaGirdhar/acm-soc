@@ -3,9 +3,9 @@ import React from "react";
 export default function Home() {
     return(
         <>
-            <div className={'flex sm:py-10 flex-col sm:justify-center items-center'}>
+            <div className={'min-w-screen min-h-screen flex sm:py-10 flex-col sm:justify-center items-center'}>
                 <div className={'sm:w-3/6 px-4'}>
-                    <div className={'sm:text-[20px] text-[12px]'}>
+                    <div className={'sm:text-[20px] text-[16px]'}>
                         <p className={'py-2'}>
                             Welcome to IIIT Delhi Student Chapter’s self hosted ACM Summer of Code! This is an 11 day challenge for beginners and experts alike that presents you with one unique task per day with a 24 hour deadline. (You heard that right, deadline again.)
                         </p>
