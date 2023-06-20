@@ -28,7 +28,7 @@ const Leaderbards = () => {
   }, []);
 
   return (
-    <div className="brightness-125 rounded-xl mt-10 backdrop-blur-sm" style={{ marginLeft: "140px" ,marginRight: "250px" }}>
+    <div className="min-h-screen brightness-125 rounded-xl mt-10 backdrop-blur-sm" style={{ marginLeft: "140px" ,marginRight: "250px" }}>
       <div className={'flex justify-around'}>
         <img src={battery} alt="battery" />
         <img src={coin} alt="Image"  />
