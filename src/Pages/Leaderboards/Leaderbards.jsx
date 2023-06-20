@@ -30,7 +30,7 @@ const Leaderboards = () => {
   }, []);
 
   return (
-    <div className="mt-4">
+    <div className="mt-20 ml-[120px] backdrop-blur-sm bg-gradient-to-r from-[#ffffff10] to-[#ffffff08] mr-[30px]"  >
       <div className="flex">
         <div className="brightness-125 rounded-xl ml-4 px-5 py-8">
           <div className="flex items-start space-x-50">
@@ -54,14 +54,21 @@ const Leaderboards = () => {
             </tbody>
           </table>
         </div>
-        <div className="w-[100px] mx-[95px] mt-[35px] my-1">
-          <img className="h-[405px] w-full" src={leader} alt="leader" />
+        <div className="w-[224px] mx-[95px] mt-[35px] my-1">
+          <img className="h-[520px] w-full" src={leader} alt="leader" />
         </div>
-        <div className="bottom-1000 left-0 mt-[10px] mb-4 ml-4">
-          <img className="h-[30px] w-full" src={radar} alt="radar" />
-        </div>
+        
       </div>
+      <div className=" ml-[65px] px-45">
+      <div className=" flex bottom-0 left-0 mt-[10px] mb-4">
+          <img className="h-[40px] w-[80px]" src={radar} alt="radar" />
+          <div className="text-xl px-10">Coins Collected on Site : </div>
+          <img className="h-[30px] w-[30px]" src={coin} alt="coin" />
+          <div className="text-xl px-2">x98 </div>
+        </div>
     </div>
+    </div>
+    
   );
 };
 
