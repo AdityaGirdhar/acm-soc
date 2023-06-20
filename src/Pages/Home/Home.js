@@ -7,7 +7,7 @@ import box from "../../Assets/box.png";
 
 export default function Home() {
     return ( <>
-        <div className = {'sm:min-w-screen sm:min-h-screen flex sm:py-10 pt-10 sm:justify-center items-center'}>
+        <div className = {'min-w-screen min-h-screen flex sm:py-10 pt-10 sm:justify-center items-center'}>
             <div className={'sm:block hidden sm:w-1/5 px-3 h-screen'}>
                 <div className = "h-1/2 flex justify-center">
                     <img className = "h-[40px]" src = { codess } alt = "codess"/>
@@ -16,8 +16,8 @@ export default function Home() {
                     <img className = "h-[60px]" src={require('../../Assets/waves.png')} alt = "wave"/>
                 </div>
             </div>
-            <div className={'flex justify-center'}>
-                <div className = {"sm:w-3/5 w-4/5 sm:max-w-screen"}>
+            <div className={'flex justify-center sm:w-4/5'}>
+                <div className = {"w-4/5 sm:max-w-screen"}>
                     <div className = {'sm:w-full sm:px-10 sm:py-5 py-2 px-3 border-[2px] border-[#07B509] border-dashed sm:text-[22px] text-[16px] '}>
                         <div className = {' py-2 relative z-10'}>
                             Welcome to IIIT Delhi Student Chapter’ s self - hosted ACM Summer of Code!This is an 11 - day challenge
