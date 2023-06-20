@@ -13,6 +13,7 @@ function App() {
             <div className={''}>
                 <BrowserRouter>
                     <Navbar />
+                    <div className={''}>
                       <Routes>
                         <Route path={'/'} element={<Home />}/>
                         <Route path={'/rules'} element={<Rules/>}/>
@@ -20,6 +21,7 @@ function App() {
                         <Route path={'/calender'} element={<Calender />}/>
                         <Route path={'/rules'} element={<Rules />}/>
                       </Routes>
+                    </div>
                     <Footer />
                 </BrowserRouter>
             </div>

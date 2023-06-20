@@ -30,43 +30,40 @@ const Leaderboards = () => {
   }, []);
 
   return (
-    <div className="mt-20 ml-[120px] backdrop-blur-sm bg-gradient-to-r from-[#ffffff10] to-[#ffffff08] mr-[290px]"  >
-      <div className="flex">
-        <div className="brightness-125 rounded-xl ml-4 px-5 py-8">
-          <div className="flex items-start space-x-50">
-            <div className="w-[110px]">
-              <img className="h-[55px] w-full mx-[12px] py-[5px] my-1" src={battery} alt="battery" />
-            </div>
-            <div className="w-[450px]">
-              <img className="h-[58px] w-full mx-[265px] py-[5px] my-1" src={pulse} alt="pulse" />
-            </div>
+    <div className="h-screen">
+      <div className="flex justify-center">
+          <div className={'sm:w-3/4 w-full flex justify-center'}>
+              <div className={' h-screen w-3/4 flex justify-end flex-col'}>
+                <div className="h-3/4 backdrop-blur-sm bg-gradient-to-r from-[#ffffff10] to-[#ffffff08] rounded-xl px-5 py-8">
+                    <div className="flex justify-evenly">
+                      <div className="w-1/2 flex justify-start">
+                        <img className="sm:h-[40px] sm:w-[120px] h-[30px]" src={battery} alt="battery" />
+                      </div>
+                      <div className="w-1/2 flex justify-end">
+                        <img className="sm:h-[50px] sm:w-[300px h-[30px]" src={pulse} alt="pulse" />
+                      </div>
+                    </div>
+                    <div className={'py-[10px] h-full '}>
+                      <table className={'table-auto w-full'}>
+                        <Board users={users} />
+                      </table>
+                    </div>
+                </div>
+                <div className="w-full sm:text-[20px] text-[16px]">
+                  <div className="sm:w-full w-3/4 flex pt-[40px] pb-[30px]">
+                      <img className="sm:h-[40px] sm:w-[120px] h-[30px]" src={radar} alt="radar" />
+                      <div className="sm:px-10 px-2">Coins Collected on Site : </div>
+                      <img className="h-[30px] w-[30px]" src={coin} alt="coin" />
+                      <div className="text-xl px-2">x98 </div>
+                  </div>
+                </div>
+              </div>
           </div>
-
-          <div className="flex items-start space-x-24 mx-9 my-2">
-            <div className="text-2xl mt-47">Rank</div>
-            <div className="text-2xl -mx-6 mt-47">Username</div>
-            <div className="text-2xl mt-47">Coins</div>
-          </div>
-
-          <table>
-            <tbody>
-              <Board users={users} />
-            </tbody>
-          </table>
-        </div>
-        <div className="w-[224px] mx-[95px] mt-[35px] my-1">
-          <img className="h-[520px] w-full" src={leader} alt="leader" />
-        </div>
-        
+            <div className="sm:w-1/4 flex justify-center items-center">
+              <img className="sm:block hidden" src={leader} alt="leader" />
+            </div>
       </div>
-      <div className=" ml-[65px] px-45">
-      <div className=" flex bottom-0 left-0 mt-[10px] mb-10">
-          <img className="h-[30px] w-[80px]" src={radar} alt="radar" />
-          <div className="text-xl px-10">Coins Collected on Site : </div>
-          <img className="h-[30px] w-[30px]" src={coin} alt="coin" />
-          <div className="text-xl px-2">x98 </div>
-        </div>
-    </div>
+
     </div>
     
   );
