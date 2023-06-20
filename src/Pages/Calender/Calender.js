@@ -39,7 +39,7 @@ export default function Calender() {
                             {/*<img className={'h-[18px] my-1'}  src={require('../../Assets/14.png')} alt={'line'}/>*/}
 
                         </div>
-                        <div className={'px-2'}>
+                        <div className={'sm:px-2'}>
                             <p className={'px-2 h-[20px] my-1 text-[20px]'}></p>
                             <p className={'px-2 h-[20px] my-1 text-[20px]'}></p>
                             <p className={'px-2 h-[20px] my-1 text-[20px]'}></p>
