@@ -9,8 +9,7 @@ import Calender from "./Pages/Calender/Calender";
 function App() {
   return (
       <>
-        <div className="App bg-[#2B2B2B] scp-font text-[#07B509] ">
-            <img src={require("../src/Assets/grid.png")} alt="bg" className={'-z-0 absolute sm:w-screen sm:h-[900px]'}/>
+        <div className="min-h-screen bg-[url('../src/Assets/grid.png')] bg-contain App bg-[#2B2B2B] scp-font text-[#07B509] ">
             <div className={''}>
                 <BrowserRouter>
                     <Navbar />
@@ -21,9 +20,9 @@ function App() {
                         <Route path={'/calender'} element={<Calender />}/>
                         <Route path={'/rules'} element={<Rules />}/>
                       </Routes>
+                    <Footer />
                 </BrowserRouter>
             </div>
-            <Footer />
         </div>
       </>
   );
