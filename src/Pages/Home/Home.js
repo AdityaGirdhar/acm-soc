@@ -4,6 +4,7 @@ import codess from "../../Assets/codess.png";
 import notequal from "../../Assets/notequal.png";
 import compass from "../../Assets/compass.png";
 import box from "../../Assets/box.png";
+import {Link} from "react-router-dom";
 
 export default function Home() {
     return ( <>
@@ -32,10 +33,12 @@ export default function Home() {
                             So, roll up your sleeves, buckle up your coding skills, and get ready to embark on this incredible 11 - Day Coding Challenge.We are ready, are you ?
                         </p>
                     </div>
-                    <div className = {'flex justify-center sm:text-[18px] text-[12px] sm:pb-10 py-2'}>
-                        <button className = {'w-1/2 cursor-default sm:px-[100px] py-2 bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-xl mt-5 backdrop-blur-sm' } >
-                            Event starts on 21/06/23, be ready.
-                        </button>
+                    <div className = {'flex justify-center sm:text-[18px] text-[12px] sm:pb-10 py-2 text-center'}>
+                    
+                        <Link to={'/tasks'} className = {'w-1/2 cursor-default sm:px-[100px] py-2 bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-xl mt-5 backdrop-blur-sm' } >
+                        {"ENTER->"}</Link>
+                        
+                        
                     </div>
                 </div>
             </div>
