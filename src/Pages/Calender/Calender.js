@@ -15,8 +15,8 @@ export default function Calender() {
                             <img className={'h-[18px] my-1'} src={require('../../Assets/2.png')} alt={'line'}/>
                             <img className={'h-[18px] my-1'}  src={require('../../Assets/3.png')} alt={'line'}/>
 
-                            <img className={'h-[18px] my-1'}  src={require('../../Assets/1c.png')} alt={'line'}/>
-                            {/*<img className={'h-[18px] my-1'}  src={require('../../Assets/4.png')} alt={'line'}/>*/}
+                            {/*<img className={'h-[18px] my-1'}  src={require('../../Assets/1c.png')} alt={'line'}/>*/}
+                            <img className={'h-[18px] my-1'}  src={require('../../Assets/4.png')} alt={'line'}/>
                             <img className={'h-[18px] my-1'}  src={require('../../Assets/2c.png')} alt={'line'}/>
                             {/*<img className={'h-[18px] my-1'}  src={require('../../Assets/5.png')} alt={'line'}/>*/}
                             <img className={'h-[18px] my-1'}  src={require('../../Assets/3c.png')} alt={'line'}/>
