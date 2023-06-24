@@ -10,6 +10,7 @@ const API = "https://sheet.best/api/sheets/ac762f3b-4dff-439a-a87d-f321b883f8d3"
 
 const Leaderboards = () => {
   const [users, setUsers] = useState([]);
+  const [cns, setCns] = useState(0);
 
   const fetchUsers = async (url) => {
     try {
@@ -18,20 +19,28 @@ const Leaderboards = () => {
       if (data.length > 0) {
         setUsers(data);
       }
-      console.log(data);
     } catch (e) {
       console.error(e);
     }
   };
-  var i=0;
+  
   useEffect(() => {
     fetchUsers(API);
-    {users.map((curUser, index) => {
-      const { 'Name': id, 'Score': score } = curUser;
-               i+=parseInt(score, 10);
-      })}
-    console.log(API);
   }, []);
+  
+  useEffect(() => {
+    let totalScore = 0;
+  
+    users.forEach((curUser) => {
+      const { 'Score': score } = curUser;
+      totalScore += parseInt(score, 10);
+    });
+  
+    setCns(totalScore);
+  }, [users]);
+  
+  // ...
+  
 
 
   return (
@@ -59,7 +68,7 @@ const Leaderboards = () => {
                       <img className="sm:h-[40px] sm:w-[120px] h-[30px]" src={radar} alt="radar" />
                       <div className="sm:px-10 px-2">Coins Collected on Site : </div>
                       <img className="h-[30px] w-[30px]" src={coin} alt="coin" />
-                      <div className="text-xl px-2">x{i} </div>
+                      <div className="text-xl px-2">x{cns} </div>
                   </div>
                 </div>
               </div>
