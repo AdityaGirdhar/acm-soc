@@ -31,7 +31,7 @@ export default function Tasks() {
                         </a>
                         
                     </div>
-                    <div className = {'flex justify-center sm:text-[18px] text-[12px] sm:pb-2 py-2'}>
+                    <div className = {'flex justify-center sm:text-[18px] text-[12px] sm:pb-2 py-2 text-center'}>
                         <a href="https://codeforces.com/contestInvitation/7ca92263d5b3e125b25f6b3dcf508c0bc114a42c" target="_blank" className = {'w-1/2 cursor-pointer sm:px-[100px] py-2 bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-xl mt-5 backdrop-blur-sm' } >
                             Day 2-Programming
                         </a>
