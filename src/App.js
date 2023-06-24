@@ -5,6 +5,7 @@ import Footer from "./Components/Footer/Footer";
 import Leaderboards from "./Pages/Leaderboards/Leaderboards";
 import Rules from "./Pages/Rules/Rules";
 import Calender from "./Pages/Calender/Calender";
+import Tasks from './Pages/Tasks/Tasks';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
                         <Route path={'/leaderboards'} element={<Leaderboards />}/>
                         <Route path={'/calender'} element={<Calender />}/>
                         <Route path={'/rules'} element={<Rules />}/>
+                        <Route path={'/tasks'} element={<Tasks />}/>
                       </Routes>
                     </div>
                     <Footer />
