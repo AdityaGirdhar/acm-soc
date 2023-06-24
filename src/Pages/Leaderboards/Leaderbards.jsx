@@ -23,11 +23,16 @@ const Leaderboards = () => {
       console.error(e);
     }
   };
-
+  var i=0;
   useEffect(() => {
     fetchUsers(API);
+    {users.map((curUser, index) => {
+      const { 'Name': id, 'Score': score } = curUser;
+               i+=parseInt(score, 10);
+      })}
     console.log(API);
   }, []);
+
 
   return (
     <div className="h-screen">
@@ -54,7 +59,7 @@ const Leaderboards = () => {
                       <img className="sm:h-[40px] sm:w-[120px] h-[30px]" src={radar} alt="radar" />
                       <div className="sm:px-10 px-2">Coins Collected on Site : </div>
                       <img className="h-[30px] w-[30px]" src={coin} alt="coin" />
-                      <div className="text-xl px-2">x98 </div>
+                      <div className="text-xl px-2">x{i} </div>
                   </div>
                 </div>
               </div>
