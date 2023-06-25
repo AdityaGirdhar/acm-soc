@@ -57,8 +57,8 @@ const Leaderboards = () => {
                         <img className="sm:h-[50px] sm:w-[300px h-[30px]" src={pulse} alt="pulse" />
                       </div>
                     </div>
-                    <div className={'py-[10px] h-full '}>
-                      <table className={'table-auto w-full'}>
+                    <div className={' overflow-y-auto h-5/6'}>
+                      <table className={'table-auto w-full '}>
                         <Board users={users} />
                       </table>
                     </div>

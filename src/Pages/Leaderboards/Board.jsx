@@ -11,31 +11,31 @@ const Board = ({ users }) => {
           </tr>
       </thead>
         <tbody className={'text-start '}>
-      {users.map((curUser, index) => {
-        console.log(curUser);
-        const { 'Name': id, 'Score': score } = curUser;
+            {users.map((curUser, index) => {
+                console.log(curUser);
+                const { 'Name': id, 'Score': score } = curUser;
 
-        return (
-            <>
-              <tr className={'sm:text-[20px] text-[14px]'} key={index}>
-                <td className={''}>{parseInt(index, 10)+1}</td>
-                <td className={''}>{id}</td>
-                <td className={'flex'}>
-                  {Array.from({ length: parseInt(score, 10) }, (_, i) => (
-                    <div className={''}>
-                      <img
-                        className={'sm:h-[30px] sm:w-[30px] h-[15px] w-[13px]'}
-                        src={coin}
-                        key={i}
-                        alt={'coin'}/>
-                    </div>
-                  ))}
-                </td>
-              </tr>
-            </>
-        );
-      })}
-        </tbody>
+                return (
+                    <>
+                        <tr className={'sm:text-[20px] text-[14px]'} key={index}>
+                            <td className={''}>{parseInt(index, 10)+1}</td>
+                            <td className={''}>{id}</td>
+                            <td className={'flex'}>
+                                {Array.from({ length: parseInt(score, 10) }, (_, i) => (
+                                    <div className={''}>
+                                        <img
+                                            className={'sm:h-[30px] sm:w-[30px] h-[15px] w-[13px]'}
+                                            src={coin}
+                                            key={i}
+                                            alt={'coin'}/>
+                                    </div>
+                                ))}
+                            </td>
+                        </tr>
+                    </>
+                );
+            })}
+            </tbody>
     </>
   );
 };
