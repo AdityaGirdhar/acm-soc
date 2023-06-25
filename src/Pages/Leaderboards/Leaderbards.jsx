@@ -48,7 +48,7 @@ const Leaderboards = () => {
       <div className="flex justify-center">
           <div className={'sm:w-3/4 w-full flex justify-center'}>
               <div className={' h-screen sm:3/4 w-4/5 flex justify-end flex-col'}>
-                <div className="h-3/4 backdrop-blur-sm bg-gradient-to-r from-[#ffffff10] to-[#ffffff08] rounded-xl px-5 py-8">
+                <div className="h-3/4 backdrop-blur-sm bg-gradient-to-r from-[#ffffff10] to-[#ffffff08] rounded-xl px-5 pt-3">
                     <div className="flex justify-evenly">
                       <div className="w-1/2 flex justify-start">
                         <img className="sm:h-[40px] sm:w-[120px] h-[30px]" src={battery} alt="battery" />
@@ -57,7 +57,7 @@ const Leaderboards = () => {
                         <img className="sm:h-[50px] sm:w-[300px h-[30px]" src={pulse} alt="pulse" />
                       </div>
                     </div>
-                    <div className={' overflow-y-auto h-5/6'}>
+                    <div className={'pt-2 overflow-y-auto h-5/6'}>
                       <table className={'table-auto w-full '}>
                         <Board users={users} />
                       </table>
