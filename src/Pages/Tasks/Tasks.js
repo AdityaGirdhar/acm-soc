@@ -41,12 +41,10 @@ export default function Tasks() {
                             Day 3-Programming
                         </a>
                     </div>
-                    <div className = {'flex justify-center sm:text-[18px] text-[12px] sm:pb-2 py-2'}>
-                        <button className = {'w-1/2 cursor-default sm:px-[100px] py-2 bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-xl mt-5 backdrop-blur-sm' } >
-                            <div className="flex justify-center">
-                                <img src={lock} className={'h-[15px] w-[15px]'}></img>
-                            </div>
-                        </button>
+                    <div className = {'flex justify-center sm:text-[18px] text-[12px] sm:pb-2 py-2 text-center'}>
+                        <a href="https://codeforces.com/contestInvitation/4c3c7fd17e601cd8fbec665d9660c04d2d0243c8" target="_blank" className = {'w-1/2 cursor-pointer sm:px-[100px] py-2 bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-xl mt-5 backdrop-blur-sm' } >
+                            Day 4-Programming
+                        </a>
                     </div>
                     <div className = {'flex justify-center sm:text-[18px] text-[12px] sm:pb-2 py-2'}>
                         <button className = {'w-1/2 cursor-default sm:px-[100px] py-2 bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-xl mt-5 backdrop-blur-sm' } >
