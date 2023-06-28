@@ -7,6 +7,7 @@ import Rules from "./Pages/Rules/Rules";
 import Calender from "./Pages/Calender/Calender";
 import Tasks from './Pages/Tasks/Tasks';
 import Day5 from './Pages/Tasks/Day5';
+import Day6 from './Pages/Tasks/Day6';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
                         <Route path={'/rules'} element={<Rules />}/>
                         <Route path={'/tasks'} element={<Tasks />}/>
                         <Route path={'/day5'} element={<Day5 />}/>
+                        <Route path={'/day6'} element={<Day6 />}/>
                       </Routes>
                     </div>
                     <Footer />
