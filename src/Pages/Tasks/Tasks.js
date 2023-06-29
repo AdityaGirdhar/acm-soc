@@ -58,11 +58,8 @@ export default function Tasks() {
                     </div>
         
                     <div className = {'flex justify-center sm:text-[18px] text-[12px] sm:pb-2 py-2'}>
-                        <button className = {'w-1/2 cursor-default sm:px-[100px] py-2 bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-xl mt-5 backdrop-blur-sm' } >
-                            <div className="flex justify-center">
-                                <img src={lock} className={'h-[15px] w-[15px]'}></img>
-                            </div>
-                        </button>
+                    <Link to={'/day7'} className = {'w-1/2 text-center cursor-pointer sm:px-[100px] py-2 bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-xl mt-5 backdrop-blur-sm' } >
+                        {"Day 7-Generative AI"}</Link>
                     </div>
                     <div className = {'flex justify-center sm:text-[18px] text-[12px] sm:pb-2 py-2'}>
                         <button className = {'w-1/2 cursor-default sm:px-[100px] py-2 bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-xl mt-5 backdrop-blur-sm' } >
