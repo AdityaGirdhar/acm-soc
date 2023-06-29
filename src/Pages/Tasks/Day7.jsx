@@ -28,7 +28,7 @@ const Day7 = () => {
                     </div>
                     <div className = {'flex justify-center sm:text-[18px] text-[12px] sm:pb-10 pb-5 py-2 text-center'}>
                     
-                    <a href="https://forms.gle/hEQawCc453Akm4R88" target="_blank" className = {'w-1/2 cursor-pointer sm:px-[100px] py-2 bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-xl mt-5 backdrop-blur-sm' } >
+                    <a href="https://forms.gle/TefcAAKAQp74wdpb7" target="_blank" className = {'w-1/2 cursor-pointer sm:px-[100px] py-2 bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-xl mt-5 backdrop-blur-sm' } >
                         Submit</a>
                         
                         
