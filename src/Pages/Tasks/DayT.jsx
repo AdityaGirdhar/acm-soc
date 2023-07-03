@@ -41,8 +41,8 @@ const DayT = () => {
                     </div>
                     <div className = {'flex justify-center sm:text-[18px] text-[12px] sm:pb-10 pb-5 py-2 text-center'}>
                     
-                    <p className = {'w-1/2 cursor-pointer sm:px-[100px] py-2 bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-xl mt-5 backdrop-blur-sm' } >
-                    Submissions open on 3rd July</p>
+                    <a href="https://forms.gle/dBd1i25MiQF4CYUG8" target="_blank" className = {'w-1/2 cursor-pointer sm:px-[100px] py-2 bg-gradient-to-r from-[#ffffff18] to-[#ffffff08] rounded-xl mt-5 backdrop-blur-sm' } >
+                    Submit</a>
                         
                         
                     </div>
